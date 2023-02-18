@@ -48,25 +48,37 @@ build cmake_object_order_depends_target_DundeeLang: phony || CMakeFiles/DundeeLa
 
 build CMakeFiles/DundeeLang.dir/main.cpp.o: CXX_COMPILER__DundeeLang_Debug /Users/dundeezhang/CLionProjects/DundeeLang/main.cpp || cmake_object_order_depends_target_DundeeLang
   DEP_FILE = CMakeFiles/DundeeLang.dir/main.cpp.o.d
-  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -fcolor-diagnostics -std=gnu++17
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -fcolor-diagnostics -std=gnu++2a
   OBJECT_DIR = CMakeFiles/DundeeLang.dir
   OBJECT_FILE_DIR = CMakeFiles/DundeeLang.dir
 
 build CMakeFiles/DundeeLang.dir/Libraries/Math.cpp.o: CXX_COMPILER__DundeeLang_Debug /Users/dundeezhang/CLionProjects/DundeeLang/Libraries/Math.cpp || cmake_object_order_depends_target_DundeeLang
   DEP_FILE = CMakeFiles/DundeeLang.dir/Libraries/Math.cpp.o.d
-  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -fcolor-diagnostics -std=gnu++17
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -fcolor-diagnostics -std=gnu++2a
   OBJECT_DIR = CMakeFiles/DundeeLang.dir
   OBJECT_FILE_DIR = CMakeFiles/DundeeLang.dir/Libraries
 
 build CMakeFiles/DundeeLang.dir/Interpreter/Run.cpp.o: CXX_COMPILER__DundeeLang_Debug /Users/dundeezhang/CLionProjects/DundeeLang/Interpreter/Run.cpp || cmake_object_order_depends_target_DundeeLang
   DEP_FILE = CMakeFiles/DundeeLang.dir/Interpreter/Run.cpp.o.d
-  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -fcolor-diagnostics -std=gnu++17
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -fcolor-diagnostics -std=gnu++2a
   OBJECT_DIR = CMakeFiles/DundeeLang.dir
   OBJECT_FILE_DIR = CMakeFiles/DundeeLang.dir/Interpreter
 
 build CMakeFiles/DundeeLang.dir/Interpreter/Loops.cpp.o: CXX_COMPILER__DundeeLang_Debug /Users/dundeezhang/CLionProjects/DundeeLang/Interpreter/Loops.cpp || cmake_object_order_depends_target_DundeeLang
   DEP_FILE = CMakeFiles/DundeeLang.dir/Interpreter/Loops.cpp.o.d
-  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -fcolor-diagnostics -std=gnu++17
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -fcolor-diagnostics -std=gnu++2a
+  OBJECT_DIR = CMakeFiles/DundeeLang.dir
+  OBJECT_FILE_DIR = CMakeFiles/DundeeLang.dir/Interpreter
+
+build CMakeFiles/DundeeLang.dir/Interpreter/Read.cpp.o: CXX_COMPILER__DundeeLang_Debug /Users/dundeezhang/CLionProjects/DundeeLang/Interpreter/Read.cpp || cmake_object_order_depends_target_DundeeLang
+  DEP_FILE = CMakeFiles/DundeeLang.dir/Interpreter/Read.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -fcolor-diagnostics -std=gnu++2a
+  OBJECT_DIR = CMakeFiles/DundeeLang.dir
+  OBJECT_FILE_DIR = CMakeFiles/DundeeLang.dir/Interpreter
+
+build CMakeFiles/DundeeLang.dir/Interpreter/DataTypes.cpp.o: CXX_COMPILER__DundeeLang_Debug /Users/dundeezhang/CLionProjects/DundeeLang/Interpreter/DataTypes.cpp || cmake_object_order_depends_target_DundeeLang
+  DEP_FILE = CMakeFiles/DundeeLang.dir/Interpreter/DataTypes.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -fcolor-diagnostics -std=gnu++2a
   OBJECT_DIR = CMakeFiles/DundeeLang.dir
   OBJECT_FILE_DIR = CMakeFiles/DundeeLang.dir/Interpreter
 
@@ -78,7 +90,7 @@ build CMakeFiles/DundeeLang.dir/Interpreter/Loops.cpp.o: CXX_COMPILER__DundeeLan
 #############################################
 # Link the executable DundeeLang
 
-build DundeeLang: CXX_EXECUTABLE_LINKER__DundeeLang_Debug CMakeFiles/DundeeLang.dir/main.cpp.o CMakeFiles/DundeeLang.dir/Libraries/Math.cpp.o CMakeFiles/DundeeLang.dir/Interpreter/Run.cpp.o CMakeFiles/DundeeLang.dir/Interpreter/Loops.cpp.o
+build DundeeLang: CXX_EXECUTABLE_LINKER__DundeeLang_Debug CMakeFiles/DundeeLang.dir/main.cpp.o CMakeFiles/DundeeLang.dir/Libraries/Math.cpp.o CMakeFiles/DundeeLang.dir/Interpreter/Run.cpp.o CMakeFiles/DundeeLang.dir/Interpreter/Loops.cpp.o CMakeFiles/DundeeLang.dir/Interpreter/Read.cpp.o CMakeFiles/DundeeLang.dir/Interpreter/DataTypes.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
   OBJECT_DIR = CMakeFiles/DundeeLang.dir
   POST_BUILD = :
